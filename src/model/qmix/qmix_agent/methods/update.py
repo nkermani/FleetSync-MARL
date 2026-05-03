@@ -1,5 +1,6 @@
 # src/model/qmix/qmix_agent/methods/update.py
 
+import torch
 import torch.nn.functional as F
 
 def update(self, batch, gamma=0.99):

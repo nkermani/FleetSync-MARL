@@ -5,7 +5,8 @@ import sys
 sys.path.insert(0, "src")
 
 from environment import WarehouseEnv
-from model.qmix import SimpleQMIX, QMIXNetwork
+from model.qmix.qmix_agent import QMIXAgent
+from model.qmix.qmix_network import QMIXNetwork
 from train import ReplayBuffer
 import numpy as np
 
@@ -24,7 +25,7 @@ def test_marl_integration():
 
     # Initialize agent
     print("\n2. Initializing QMIX agent...")
-    agent = SimpleQMIX(num_agents=3, obs_dim=17, n_actions=5)
+    agent = QMIXAgent(num_agents=3, obs_dim=17, n_actions=5, state_dim=51)
     print(f"   ✓ Agent created with {agent.num_agents} agents")
     print(f"   ✓ Device: {agent.device}")
 
