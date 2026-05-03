@@ -4,9 +4,7 @@
 
 ## 📌 Overview
 
-FleetSync-MARL is a research-oriented project exploring the intersection of Multi-Agent Reinforcement Learning (MARL) and Neural Combinatorial Optimization. This project addresses the core challenge from NAVER LABS Europe: orchestrating a fleet of robots (or autonomous agents) moving in open environments under various constraints to optimize service operations.
-
-This project directly addresses the internship position for **Learning-Based Optimisation of Multi-Robot Systems** at NAVER LABS Europe, exploring the space at the intersection of Reinforcement Learning and Multi-Agent Planning.
+FleetSync-MARL is a research-oriented project exploring the intersection of Multi-Agent Reinforcement Learning (MARL) and Neural Combinatorial Optimization.
 
 ## 🚀 The Challenge: Beyond Single-Agent RL
 
@@ -20,8 +18,6 @@ Traditional Reinforcement Learning (RL) handles sequential decision-making for a
 FleetSync-MARL handles this by implementing centralized training with decentralized execution (CTDE), allowing agents to learn coordinated policies that work in real-time.
 
 ## 🔬 Research Context
-
-This project directly aligns with the NAVER LABS Europe research track on **Neural Combinatorial Optimization for Robot Fleet Management**:
 
 > *"With the growing development of robotics services, the problem of orchestrating a fleet of robots (or autonomous agents) under various constraints has recently become a major design bottleneck, especially when seeking to optimise service operations."*
 
@@ -91,10 +87,6 @@ git clone https://github.com/nkermani/FleetSync-MARL.git
 # Install dependencies
 pip install torch torch-geometric numpy gym stable-baselines3
 ```
-
-## 💡 Connection to NAVER LABS Europe
-
-This project serves as a practical implementation of the concepts outlined in the Neural Combinatorial Optimization research track at NAVER LABS, specifically demonstrating:
 
 1. **Multi-Agent RL**: Training multiple agents to coordinate
 2. **Learning-Augmented Optimization**: Using neural networks to predict heuristics
